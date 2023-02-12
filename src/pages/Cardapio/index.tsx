@@ -9,9 +9,12 @@ export default function Cardapio() {
             </nav>
             <header className={styles.header}>
                 <div className={styles.header__text}>
-
+                    Impossível não sair de buxin chei
                 </div>
             </header>
+            <section className={styles.Cardapio}>
+                <h3 className={styles.cardapio__titulo}>Cardápio</h3>
+            </section>
         </main>
     )
 }
