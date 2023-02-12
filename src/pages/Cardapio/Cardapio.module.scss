@@ -36,7 +36,7 @@
     color: white;
     font-size: 4rem;
     min-width: 400px;
-    width: 40%;
+    width: 30%;
   }
 }
 
@@ -55,5 +55,13 @@
     color: $dark;
     font-size: 3rem;
     margin-bottom: 30px;
+  }
+  &__filtros {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    width: 100%;
   }
 }
