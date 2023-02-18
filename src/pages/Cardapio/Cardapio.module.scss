@@ -2,15 +2,15 @@
 @import "styles/breakpoints";
 
 .menu {
-  padding: 20px $padding-horizontal;
+  padding: 20px ($padding-horizontal - 50px);
   @media (max-width: $desktop_xsm) {
-    padding: 20px $padding-horizontal-mobile;
+    padding: 20px ($padding-horizontal-mobile - 50px);
   }
   @media (min-width: $desktop_xsm) and (max-width: $desktop_sm) {
-    padding: 20px $padding-horizontal-sm;
+    padding: 20px ($padding-horizontal-sm - 50px);
   }
   @media (min-width: $desktop_sm) and (max-width: $desktop_md) {
-    padding: 20px $padding-horizontal-md;
+    padding: 20px ($padding-horizontal-md - 50px);
   }
 }
 

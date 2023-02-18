@@ -13,7 +13,7 @@ export default function Cardapio() {
   return (
     <main>
       <nav className={styles.menu}>
-        <Logo />
+        <Logo className='logo'/>
       </nav>
       <header className={styles.header}>
         <div className={styles.header__text}>
