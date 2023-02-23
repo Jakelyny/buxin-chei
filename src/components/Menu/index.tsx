@@ -10,8 +10,8 @@ export default function Menu() {
     label: 'Cardápio',
     to: '/cardapio'
   }, {
-    label: 'Sobre',
-    to: '/sobre'
+    label: 'Prosa',
+    to: '/prosa'
   }];
   return (
     <nav className={styles.menu}>
