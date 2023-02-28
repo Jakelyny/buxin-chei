@@ -7,6 +7,28 @@
   justify-content: center;
   text-align: center;
   img {
-    width: 40%;
+    width: 30%;
+  }
+}
+
+.voltar {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  button {
+    transition: 0.7s ease;
+    background-color: transparent;
+    padding: 10px 35px;
+    border: none;
+    color: $dark;
+    border-radius: 55px;
+    cursor: pointer;
+    border: solid 2px #9a8d84;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  :hover {
+    background-color: #6e5d4f;
+    color: #F3F0D7;
   }
 }

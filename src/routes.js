@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 export default function AppRouter() {
   return (
-    <main>
+    <main className='container'>
       <Router>
         <Menu />
         <Routes>
@@ -17,8 +17,8 @@ export default function AppRouter() {
             <Route index element={<Inicio />} />
             <Route path='cardapio' element={<Cardapio />} />
             <Route path='prosa' element={<Prosa />} />
-            <Route path='*' element={<NotFound />} />
           </Route>
+          <Route path='*' element={<NotFound />} />
         </Routes>
         <Footer />
       </Router>
