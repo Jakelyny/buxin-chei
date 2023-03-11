@@ -22,7 +22,7 @@ Projetinho trata-se de um estudo sobre React e Typescript na implementação de 
 ### Cardápio:
 ![image](https://user-images.githubusercontent.com/85123013/224505588-9a04e18e-a653-4991-a748-dcd06802434c.png)
 
-### Detaplhes do prato:
+### Prato:
 ![image](https://user-images.githubusercontent.com/85123013/224505709-f3a80525-dd4b-4407-ae78-912aaae34a44.png)
 
 <br/>
