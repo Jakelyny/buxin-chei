@@ -17,15 +17,11 @@ Projetinho trata-se de um estudo sobre React e Typescript na implementação de 
 ### Home: 
 ![image](https://user-images.githubusercontent.com/85123013/224503057-f85fcdcf-387b-4115-9949-05297e553e28.png)
 
-<br/>
-
 ### Cardápio:
 ![image](https://user-images.githubusercontent.com/85123013/224505588-9a04e18e-a653-4991-a748-dcd06802434c.png)
 
 ### Prato:
 ![image](https://user-images.githubusercontent.com/85123013/224505709-f3a80525-dd4b-4407-ae78-912aaae34a44.png)
-
-<br/>
 
 ### Prosa:
 ![image](https://user-images.githubusercontent.com/85123013/224503169-dc9730a9-0b61-43b4-bc0d-57a02ed4524f.png)
