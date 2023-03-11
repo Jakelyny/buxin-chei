@@ -4,6 +4,7 @@ import cardapio from 'data/cardapio.json';
 import TagsPrato from 'components/TagsPrato';
 import NotFound from 'pages/NotFound';
 import PaginaPadrao from 'components/PaginaPadrao';
+import { BsFillReplyAllFill } from 'react-icons/bs';
 
 export default function Prato() {
   const { id } = useParams();
@@ -17,9 +18,12 @@ export default function Prato() {
       <Route path="*" element={<PaginaPadrao />}>
         <Route index element={
           <>
-            <button className={styles.voltar} onClick={() => navigate(-1)}>
-              {'< Voltar'}
-            </button>
+            <div className={styles.voltar}>
+              <button className={styles.voltar} onClick={() => navigate(-1)}>
+                <BsFillReplyAllFill size={20} />
+                {' Voltar'}
+              </button>
+            </div>
             <div className={styles.container}>
               <h1 className={styles.titulo}>
                 {prato.title}

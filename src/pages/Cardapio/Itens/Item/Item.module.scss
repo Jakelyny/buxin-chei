@@ -1,17 +1,18 @@
 @import "styles/variaveis";
 @import "styles/breakpoints";
 
-$massas: #d73b3b;
-$bichins: #30201e;
-$amancebados: #e6c864;
-$vegano: #80aa40;
-$claros: #e9ecf0;
-$escuros: #2e3845;
-
 .item {
+  align-items: center;
+  border-radius: 10px;
+  cursor: pointer;
   display: flex;
   flex-wrap: wrap;
+  padding: 20px;
+  transition: .2s ease-in;
   width: 90%;
+  &:hover {
+    background-color: $grey;
+  }
   &__imagem {
     min-width: 240px;
     @media (max-width: $desktop_xsm) {
@@ -25,11 +26,10 @@ $escuros: #2e3845;
   &__descricao {
     display: flex;
     flex: 1;
-    text-align: justify;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: space-around;
-    padding: 0 20px;
+    margin: 0 20px;
     @media (max-width: $desktop_xsm) {
       flex-direction: row;
       margin-top: 20px;
@@ -43,65 +43,11 @@ $escuros: #2e3845;
       margin-bottom: 20px;
     }
     p {
-      color: $blue;
+      color: $dark-grey;
       font-size: 1.3rem;
       font-weight: 600;
       max-width: 600px;
       margin-bottom: 20px;
     }
-  }
-  &__tags {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    margin-bottom: 20px;
-    max-width: 700px;
-    @media (max-width: $desktop_xsm) {
-      justify-content: flex-end;
-    }
-    @media (max-width: $mobile) {
-      justify-content: flex-start;
-    }
-    > div {
-      margin: 10px;
-    }
-  }
-  &__tipo {
-    align-items: center;
-    border-radius: 2px;
-    display: flex;
-    font-weight: bold;
-    height: 40px;
-    justify-content: center;
-    padding: 10px 30px;
-    &__massas {
-      background-color: $massas;
-      color: $claros;
-    }
-    &__bichins {
-      background-color: $bichins;
-      color: $claros;
-    }
-    &__amancebados {
-      background-color: $amancebados;
-      color: $escuros;
-    }
-    &__vegano {
-      background-color: $vegano;
-      color: $escuros;
-    }
-  }
-  &__porcao,
-  &__qtdpessoas,
-  &__valor {
-    align-items: center;
-    display: flex;
-    font-size: 1.25rem;
-    font-weight: bold;
-    justify-content: center;
-  }
-  &__valor {
-    color: $red;
-    font-size: 1.7rem;
   }
 }

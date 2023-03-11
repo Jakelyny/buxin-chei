@@ -2,12 +2,24 @@
 @import 'styles/breakpoints';
 
 .voltar {
-  background-color: transparent;
-  border: none;
-  color: $red;
-  cursor: pointer;
-  font-size: 1.5rem;
-  font-weight: bold;
+  display: flex;
+  width: 35%;
+  button {
+    transition: 0.7s ease;
+    background-color: transparent;
+    padding: 10px 35px;
+    border: none;
+    color: $dark;
+    border-radius: 55px;
+    cursor: pointer;
+    border: solid 2px #9a8d84;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  :hover {
+    background-color: #6e5d4f;
+    color: #F3F0D7;
+  }
 }
 
 .container {

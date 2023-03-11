@@ -2,8 +2,8 @@
 @import "styles/breakpoints";
 
 $massas: #d73b3b;
-$carnes: #30201e;
-$combos: #e6c864;
+$bichins: #30201e;
+$amancebados: #e6c864;
 $veganos: #80aa40;
 
 .tags {
@@ -33,12 +33,12 @@ $veganos: #80aa40;
       background-color: $massas;
       color: white;
     }
-    &__carnes {
-      background-color: $carnes;
+    &__bichins {
+      background-color: $bichins;
       color: white;
     }
-    &__combos {
-      background-color: $combos;
+    &__amancebados {
+      background-color: $amancebados;
     }
     &__veganos {
       background-color: $veganos;
